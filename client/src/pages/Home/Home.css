@@ -1,0 +1,248 @@
+.container-fluid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+}
+
+.container {
+    /* grid-row-gap:40px; */
+    /* display: grid; */
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.compo-silde-top {
+    margin-bottom: 2.5rem;
+}
+
+.slide-top {
+    height: 656px;
+}
+
+/* .icon-cart{
+    display: none;
+} */
+
+.icon-hamberger {
+    display: none;
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+    .container {
+        /* width: 1320px; */
+        width: 82.5rem;
+        /* margin: 0 auto; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* macbook air and tablet landscape */
+/* @media (min-width: 1200px) and (max-width: 1439px) { */
+@media (min-width: 992px) and (max-width: 1439px) {
+    .container {
+        /* width: 1140px; */
+        width: 100%;
+        padding: 0 1rem;
+        /* width: 80.5rem; */
+        margin: 0 auto;
+    }
+
+    /* .con-icon-nav {
+        width: 180px !important;
+    } */
+
+}
+
+/* tablet landscape */
+/* @media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 960px;
+        width: 95%;
+        margin: 0 auto;
+
+    }
+
+    .container-navbar {
+        width: 500px !important;
+    }
+
+    .con-icon-nav {
+        width: 150px !important;
+    }
+} */
+
+/* tablet ตั้ง และ แนวนอนในบางรุ่น เก่าๆ  */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        /* width: 720px; */
+        width: 100%;
+        padding: 0 1rem;
+        margin: 0 auto;
+
+    }
+
+    .slide-top {
+        height: 500px;
+    }
+
+    .container-navbar {
+        display: none !important;
+    }
+
+    .icon-hamberger {
+        display: contents;
+    }
+
+    .icon-cart {
+        display: none;
+    }
+
+    .cards {
+    height: 336px;
+    width: 100%;
+    border: solid 1px green;
+    display: flex;
+    /* justify-content:space-between; */
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+
+    /* .con-icon-nav{
+        width: auto;
+    } */
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 96%;
+        /* width: 540px; */
+        margin: 0 auto;
+
+    }
+
+    .slide-top {
+        height: 400px;
+    }
+
+    .container-navbar {
+        display: none !important;
+    }
+
+    .icon-hamberger {
+        display: contents;
+    }
+
+    .icon-cart {
+        display: none;
+    }
+    .con-icon-nav{
+        width: 160px !important;
+    }
+}
+
+@media (width <=575px) {
+    .container {
+        width: 96%;
+        margin: 0 auto;
+
+    }
+
+    .slide-top {
+        height: 300px;
+    }
+
+    .container-navbar {
+        display: none !important;
+    }
+
+    .icon-hamberger {
+        display: contents;
+    }
+
+    .icon-cart {
+        display: none;
+    }
+
+    .con-icon-nav{
+        width: 130px !important;
+    }
+
+    /* .slide-top .image{
+        object-fit: over;
+    } */
+}
+
+.grid-container {
+    display: grid;
+
+    /* grid-gap: 40px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'header'
+        'content'
+        'footer'
+    ;
+
+    /* ย่อ */
+    /* grid-template:
+        'header' auto
+        'content' auto
+        'footer' auto
+        / 1fr; */
+}
+
+.header-container {
+    grid-area: header;
+}
+
+.content-container {
+    grid-area: content;
+    /* display: grid; */
+}
+
+.footer-container {
+    grid-area: footer;
+}
+
+.content-item {
+    /* grid-row-gap:40px; */
+    /* grid-column-gap:40px; */
+    /* row-gap: 40px; */
+    /* column-gap: 40px; */
+    /* margin: 40px; */
+    margin-top: 40px;
+    /* width: 200px; */
+    /* grid-column: span 5; */
+    /* grid-template-columns: 1fr; */
+    /* grid-column: 1fr 2fr 3fr; */
+    /* grid-row:1fr 2fr 3fr; */
+    /* width: 500px; */
+}
+
+.con-slide-top {
+    margin-top: 56px;
+}
+
+
+/* Navbar */
+/* .container-navbar{
+
+} */
+
+.con-nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 56px; */
+}

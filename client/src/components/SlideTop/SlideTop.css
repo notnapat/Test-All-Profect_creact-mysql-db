@@ -1,0 +1,34 @@
+.slide-top {
+    /* width: 100%; */
+    /* height: 656px; */
+    /* background-color: #7286D3; */
+    /* background-image: url("../../images/background/intel-core-2022_1920.1080.png"); */
+    
+}
+
+/* .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+.slide-top {
+  position: relative;
+  width: 100%;
+  /* height: 656px; */
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+}

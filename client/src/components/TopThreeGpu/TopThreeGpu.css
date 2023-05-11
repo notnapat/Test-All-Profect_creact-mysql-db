@@ -1,0 +1,19 @@
+.top-three-gpu {
+    width: 100%;
+    height: 560px ;
+    /* background-color: #8EA7E9; */
+}
+
+/* .top-three-gpu a {
+    width: 100%;
+    height: 100%;
+} */
+
+.top-three-gpu a img{
+    width: 100%;
+    height: 100%;
+    /* width: 200px;
+    height: 200px; */
+    object-fit:cover;
+    
+}

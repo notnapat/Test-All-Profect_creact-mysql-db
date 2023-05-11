@@ -1,0 +1,24 @@
+.con-icon-nav{
+    width: 12.5rem;
+    height: 24px;
+    /* outline: solid 1px orange; */
+    /* background-color: orchid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-icon-nav img{
+    height: 24px;
+    width: 24px;
+    
+}
+
+.con-icon-nav a{
+      opacity: 0.8;
+      text-decoration: none;
+      transition: 200ms;
+}
+
+.con-icon-nav a:hover{
+    opacity: 1;
+}

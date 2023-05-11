@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    height: 133px ;
+    /* background-color: rgba(217, 217, 217, 0.2); */
+    background-color: #d9d9d9;
+    /* opacity: 1; */
+}
+
+.compo-connav{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
